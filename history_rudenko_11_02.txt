@@ -1,0 +1,27 @@
+   0 mkdir -p /home/user/start /opt/task
+   1 touch /home/user/start/1.txt
+   2 vi 1.txt
+   3 date >> 1.txt
+   4 cat 1.txt
+   5 cp /home/user/start/1.txt /opt/task/start.txt
+   6 tree /opt
+   7 cat start.txt
+   8 cat /opt/task/start.txt 
+   9 ls -l
+  10 ls -l | wc
+  11 ls -l | wc -l
+  12 ls -l | tail -4
+  13 ls -l | tail -4 >> start.txt
+  14 cat start.txt
+  15 cp -rf /opt/task /tmp/testnew
+  16 tree /tmp
+  17 ls -l
+  18 cat readme.txt
+  19 cat readme.txt >> start.txt
+  20 cat start.txt
+  21 rm -rf /opt/task
+  22 tree /opt
+  23 tree /home
+  24 tree /tmp
+  25 history
+  26 history > history_rudenko_11_02.txt
